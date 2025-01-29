@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-incidents": "cds watch --open incidents/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-incidents": "cds watch --open incidents/webapp/index.html?sap-ui-xx-viewCache=false --port 55358"
   },
   "sapux": [
     "app/incidents"
