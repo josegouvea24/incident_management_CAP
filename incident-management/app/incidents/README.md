@@ -1,10 +1,10 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Fri Jan 24 2025 12:08:23 GMT+0000 (Western European Standard Time)|
-|**App Generator**<br>@sap/generator-fiori-elements|
-|**App Generator Version**<br>1.16.2|
-|**Generation Platform**<br>Visual Studio Code|
+|**Generation Date and Time**<br>Tue Apr 29 2025 15:54:56 GMT+0000 (Coordinated Universal Time)|
+|**App Generator**<br>SAP Fiori Application Generator|
+|**App Generator Version**<br>1.17.4|
+|**Generation Platform**<br>SAP Business Application Studio|
 |**Template Used**<br>List Report Page V4|
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/processor/|
@@ -12,7 +12,7 @@
 |**Application Title**<br>Incident-Management|
 |**Namespace**<br>ns|
 |**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.132.0|
+|**UI5 Version**<br>1.135.0|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|

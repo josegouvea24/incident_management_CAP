@@ -1,6 +1,6 @@
 const cds = require('@sap/cds/lib')
 const { default: axios } = require('axios')
-const { GET, POST, DELETE, PATCH, expect } = cds.test(__dirname + '../../', '--with-mocks');
+const { GET, POST, DELETE, PATCH, expect } = cds.test(__dirname + '../../')
 
 axios.defaults.auth = { username: 'incident.support@tester.sap.com', password: 'initial' }
 
@@ -30,7 +30,7 @@ describe('Draft Choreography APIs', () => {
 
   it('Create an incident ', async () => {
     const { status, statusText, data } = await POST(`/odata/v4/processor/Incidents`, {
-      title: 'Urgent!',
+      title: 'Urgent attention required !',
       status_code: 'N'
     })
     draftId = data.ID
